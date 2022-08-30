@@ -1,0 +1,13 @@
+library(rmarkdown)
+---
+Title: Prueba 1
+output: md_document
+---
+
+LA prueba purebosa anadiendo texto y lineas de comando:
+
+```   library(rmarkdown)
+render("1-example.Rmd", output_format = "word_document")
+```
+deberia de poder verse como un bloque de comando completo.
+
